@@ -4,60 +4,63 @@ import Footer from "./footer";
 
 function Contact() {
   return (
-  <section class="contact">
-    <br/>
-    <br/>
-   <div class="container">
-      <div class="row">
-        <div class="title-sections">
-          <h2><strong>Contactez-Nous !</strong></h2>
+  <div class="contact">
+    <div class="content">
+      <h2>Contact us</h2>
+      {/* <p>smklncjobiefhwjnkma</p> */}
+    </div>
+    <div class="containers">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class="fa fa-map-marker fa-customize" aria-hidden="true"></i>
+        </div>
+          <div class="text">
+            <h3>Adresse</h3>
+            <p>VDN Ouest-Foire, Bande verte lot n°58 Dakar</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-envelope-o fa-customize" aria-hidden="true"></i>
+        </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>Contact@sastrans.sn</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class="fa fa-phone fa-customize" ></i>
+
+        </div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+ 221 33 867 93 14</p>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12">
-          <form class="form">
-          <div class="row"> 
-            <div class="col-sm-6">
-              <div class="input-form">
-                <i class="fa fa-user"></i>
-                <input type="text" class="form-control" placeholder="Your Name" required=""></input>
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="input-form">
-                <i class="fa fa-envelope"></i>
-                <input type="email" name="email" class="form-control" placeholder="Your Email" required=""></input>
-              </div>
-            </div>
+      <div class="contactForm">
+        <form>
+          <h2>Send message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required" />
+            <span>Full Name</span>
           </div>
-            <div class="col-sm-12">
-              <div class="input-form">
-                <i class="fa fa-comments-o"></i>
-                <textarea name="message" id="textarea" cols="30"
-                rows="10" placeholder="Your message..."
-                class="form-control"></textarea>
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <button type="submit" class="btn-button-send">
-                submit Your Message !
-              </button>
-            </div>
-
-            {/* <div class="col-sm-6 sent-message">
-              <p>
-                Your message sent !
-              </p>
-            </div> */}
-          </form>
-        </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required" />
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type your Message...</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="" value="Send "/>
+          </div>
+        </form>
       </div>
     </div>
-  <Footer/>
-      
-    </section>
+    
+  </div>
+  
     
   );
 }

@@ -3,18 +3,16 @@ import React from "react";
 function Footer() {
 return (
     <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col">
-                <h4>company</h4>
-                <ul>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our services</a></li>
-                    <li><a href="#">privacy policy</a></li>
-                    <li><a href="#">affiliate program</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="quick-links">
+        <ul>
+            <li class="quick-items"><a href="/">Acceuil</a></li>
+            <li class="quick-items"><a href="/about">A propos</a></li>
+            <li class="quick-items"><a href="/Service">Services</a></li>
+            <li class="quick-items"><a href="/contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="outer-footer">
+        Copyright 2022 &copy; Sastrans . All rights reserved
     </div>
 </footer>
 )
