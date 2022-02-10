@@ -52,7 +52,7 @@ const Hero = () => {
           alignItems="center"
           color="#fff"
         >
-          <Typography font-family="Times New Roman" variant="h4" component="h4" className={classes.title}>
+          <Typography variant="h4" component="h4" className={classes.title}>
             A propos de Sastrans
           </Typography>
           {/* <Button color="primary" variant="contained">
@@ -66,7 +66,7 @@ const Hero = () => {
             <div class="section-header">
               <h3>A Propos de Nous</h3>
               <p>La réalisation des tronçons autoroutiers AIBD-MBOUR et THIES-TOUBA vient consolider la stratégie et la politique de développement économique et social du sénégal et plus particulièrement le secteur des insfrastructures de transport. La stratégie du plan sénégal émergent mise en oeuvre par l’Etat Sénégalais pour le désenclavement des régions et le développement des activités économiques se concrétise à travers l’autoroute ILA TOUBA.</p>
-              <h3>LES SECTIONS AIBD-THIES  ET AIBD-SINDIA</h3>
+              <h3>Les Sections AIBD-THIES  et AIBD-SINDIA</h3>
               <p>Long respectivement de 129 km et 42 km comprennent, outre les ouvrages de génie civil, l’ensemble des installations socio-collectives nécessaires telles que : les postes de péage, les aires de repos et de service, les centres d’entretien, les aires d’arrêt d’urgence, etc. Pour le fonctionnement et l’exploitation de l’infrastructure dans les meilleurs conditions de sécuité, de sûreté et de qualité de service pour les usagers le gouvrenement par le biais de l’AGEROUTE, maitre d’ouvrage, a retenu la société CHINA ROAD & BRIDGE CORPORATION (CRBC) pour la gestion et l’exploitation de ce tracé.</p>
             </div>
           </div>

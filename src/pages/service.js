@@ -32,7 +32,7 @@ function Accueil() {
         <section class="project-area">
             <div class="container">
                 <div class="project-title pb-5">
-                    <h1 class=" title-h1">Nos Services</h1>
+                    <h2 class=" title-h1">Nos Services</h2>
                     <div className="underline mx-auto"></div>
                     {/* <h1 class="text-uppercase title-h1">Quality Work</h1> */}
                 </div>
