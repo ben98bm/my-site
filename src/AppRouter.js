@@ -15,7 +15,7 @@ import NavBar from "./navbar/navbar";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Service from "./pages/service";
-import footer from "./footer/footer";
+
 const AppRouter = () => {
   return (
       <>
@@ -55,7 +55,7 @@ const AppRouter = () => {
                 {/* <Route path="/" component={PrivateRoutes} /> */}
 
               </Switch>
-              <footer />
+
         </Router>
       </>
     
