@@ -638,10 +638,10 @@ ul{
 }
 
 .outer-footer{
-  padding: 10px;
+  padding: 0px;
   text-align: center;
-  margin-left: 450px;
-  margin-right: 450px;
+  /* margin-left: 450px;
+  margin-right: 450px; */
   color: #ebebeb;
   font-size: 15px;
   background-color: #404040;
@@ -787,11 +787,8 @@ ul{
   }
 }
 
-@media(min-width:768px) and (max-width:769px) {
+@media only screen and (max-width: 1024px) {
   .outer-footer{
    width: 100%;
-   padding: 0px;
-   font-size: 100%;
-   background-color: 100%;
   }
 }
