@@ -51,8 +51,8 @@ function Accueil() {
                 <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href= "<NosServices/>" >
-                                    <img src="images/patimg.jpg" alt="portfolio-1" class="img-fluid" />
+                                <a class="test-popup-link" >
+                                    <img src="images/IMG_0426.JPG" alt="portfolio-1" class="img-fluid" />
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -65,8 +65,8 @@ function Accueil() {
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                    <img src="images/remorque.jpg" alt="portfolio-1" class="img-fluid" />
+                                <a class="test-popup-link" >
+                                    <img src="images/IMG_0439.JPG" alt="portfolio-1" class="img-fluid" />
                                 </a>
                             </div>
                             <div class="title py-4">
@@ -79,8 +79,8 @@ function Accueil() {
                     <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
                         <div class="our-project">
                             <div class="img">
-                                <a class="test-popup-link" href="./img/portfolio/p1.jpg">
-                                    <img src="images/repartition.jpg" alt="portfolio-1" class="img-fluid" />
+                                <a class="test-popup-link" >
+                                    <img src="images/cropped-IMG_0153-1 4.jpg" alt="portfolio-1" class="img-fluid" />
                                 </a>
                             </div>
                             <div class="title py-4">

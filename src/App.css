@@ -208,8 +208,8 @@ h1.service__text {
 }
 .service-bg h2{
   color: #fff;
-  background: rgb(41, 158, 182);
-  border: 1px solid  rgb(41, 158, 182);
+  background: rgb(178, 182, 183);
+  border: 1px solid  rgb(94, 113, 113);
   font-size: 16px;
   text-align: center;
   font-weight: 700;
@@ -227,7 +227,7 @@ h1.service__text {
   -webkit-transition: .9s;
   -o-transition: .9ss;
   transition: .9s;
-  color: rgb(41, 158, 182);
+  color: rgb(10, 113, 134);
 }
 .service-text{
   padding: 50px 30px 20px;
@@ -575,7 +575,7 @@ ul{
 #remorquage {
   padding: 100px 0;
   background: radial-gradient(100px 50px at 25% 50%,
-  rgb(240,240,0) 40%,
+  rgba(110, 120, 118, 0.307) 40%,
   rgba(110, 120, 118, 0.293) 60%)
   /* rgb(116, 109, 124)); */
 }
@@ -793,5 +793,8 @@ ul{
    padding: 0px;
    font-size: 100%;
    background-color: 100%;
+  }
+  header{
+    width: 100%;
   }
 }
