@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Player } from 'video-react';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
@@ -21,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     top: 0,
     left: 0,
     width: '100%',
-    height: '100%',
+    height: '66.5%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   title: {
@@ -34,15 +35,18 @@ const Hero = () => {
 
   return (
     <section className={classes.root}>
-      <ReactPlayer
-        // url={heroVideo}
-        url={"images/SASTRANS 2.MOV"}
-        playing
-        loop
-        muted
-        width="100%"
-        height="100%"
-      />
+      {/* <ReactPlayer */}
+        {/* // url={heroVideo} */}
+      {/* //   url={"images/SASTRANS 2.MOV"}
+      //   playing="false"
+      //   loop
+      //   muted
+      //   width="100%"
+      //   height="100%"
+      // /> */}
+      <headers>
+        
+      </headers>
       <div className={classes.overlay}>
         <Box
           height="100%"

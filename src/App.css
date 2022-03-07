@@ -120,7 +120,7 @@ p.heading.p__color {
     border-radius: 10px;
     width: 100%;
     background-color: #191919;
-    padding: 55px;
+    padding: 45px;
     transition: .4s ease;
 }
 .service__box:hover {
@@ -375,6 +375,17 @@ header{
   flex-direction: column;
   align-items: center;
   background: url('image/IMG_1857.jpg');
+  height: 450px;
+  background-size: cover;
+  color: #fff;
+  padding: 40px;
+}
+
+headers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url('image/cropped-IMG-5454-Original.jpeg');
   height: 450px;
   background-size: cover;
   color: #fff;
@@ -644,7 +655,7 @@ ul{
   margin-right: 450px;
   color: #ebebeb;
   font-size: 15px;
-  background-color: #404040;
+  /* background-color: #404040; */
 }
 
 .quick-items a:hover {
@@ -790,9 +801,9 @@ ul{
 @media(min-width:768px) and (max-width:769px) {
   .outer-footer{
    width: 100%;
-   padding: 0px;
+   padding: 10px;
    font-size: 100%;
-   background-color: 100%;
+   /* background-color: 100%; */
   }
   header{
     width: 100%;
