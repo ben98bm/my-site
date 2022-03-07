@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     top: 0,
     left: 0,
     width: '100%',
-    height: '66.5%',
+    height: '66.4%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
   },
   title: {
@@ -44,8 +44,10 @@ const Hero = () => {
       //   width="100%"
       //   height="100%"
       // /> */}
-      <headers>
-        
+      <headers 
+      width='100%'
+      height='100%'>
+
       </headers>
       <div className={classes.overlay}>
         <Box
