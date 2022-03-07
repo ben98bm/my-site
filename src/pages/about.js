@@ -46,7 +46,7 @@ const Hero = () => {
       // /> */}
       <headers 
       width='100%'
-      height='100%'>
+      height='66.4%'>
 
       </headers>
       <div className={classes.overlay}>
