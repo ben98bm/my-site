@@ -6,7 +6,7 @@ function Contact() {
   return (
   <div class="contact">
     <div class="content">
-      <h2>Contact us</h2>
+      <h2>Contactez Nous</h2>
       {/* <p>smklncjobiefhwjnkma</p> */}
     </div>
     <div class="containers">
@@ -32,17 +32,17 @@ function Contact() {
 
         </div>
           <div class="text">
-            <h3>Phone</h3>
+            <h3>Telephone</h3>
             <p>+ 221 33 867 93 14</p>
           </div>
         </div>
       </div>
       <div class="contactForm">
         <form>
-          <h2>Send message</h2>
+          <h3>Prenez contact avec nous</h3>
           <div class="inputBox">
             <input type="text" name="" required="required" />
-            <span>Full Name</span>
+            <span>Nom Complet</span>
           </div>
           <div class="inputBox">
             <input type="text" name="" required="required" />
@@ -50,10 +50,10 @@ function Contact() {
           </div>
           <div class="inputBox">
             <textarea required="required"></textarea>
-            <span>Type your Message...</span>
+            <span>Ecrivez votre message ici...</span>
           </div>
           <div class="inputBox">
-            <input type="submit" name="" value="Send "/>
+            <input type="submit" name="" value="Envoyer "/>
           </div>
         </form>
       </div>
